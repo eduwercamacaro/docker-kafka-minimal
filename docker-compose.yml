@@ -11,7 +11,7 @@ services:
       - zookeeper_data:/data
       - zookeeper_datalog:/datalog
   kafka:
-    image: kafka-custom
+    image: kafka
     ports:
       - 9092:9092
     networks:
